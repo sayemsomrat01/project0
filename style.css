@@ -1,0 +1,14 @@
+.main-body{
+    font-size: larger;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+}
+
+.Buttons{
+    text-align: center;
+}
+
+button:hover{
+      background-color: rgb(108, 136, 228);
+  }
