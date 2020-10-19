@@ -14,14 +14,88 @@
         <button type="button"><a href="index1.html">page 2</a></button>
         <button type="button"><a href="index2.html">page 3</a></button>
         <button type="button"><a href="index3.html">page 4</a></button>
-    </div>
+    </nav>
 
     <style>
+        .flex{
+            border: black;
+            margin-top: 5px;
+            width: 100%;
+        }
+
+        .container{
+            float: left;
+            display: flex;
+            flex-wrap: wrap;
+            margin: 20px;
+            width: 200px;
+            height: 200px;
+            background-color: rgb(218, 234, 245);
+        }
+        table{
+            
+            float: right;
+            margin-top: 10px;
+            border-collapse: collapse;
+            border-color: cornflowerblue;
+            border-style: ridge;
+        }
+        th,td{
+            border-color: cyan;
+        }
         
     </style>
     <br>
     <body class="main-body">
-        Computer Programming is an important sector in information and technology field. Without programming, nothing can work
-        properly. Computer program has different language.
+        Computer programming is an important sector in the field of information and technology field. Computer programming is the back-bone of Information and technology. Without Computer 
+        programming nothing is possible to work. As it software or hardware, programming is essential widely.
+        <div class="flex">
+         <div class="container">
+            There are some programming language names are given bellow:
+         <ol>
+            <li>Python</li>
+            <li>Java</li>
+            <li>C</li>
+            <li>C++</li><br>
+         </ol>
+         </div>
+         <div class="container">
+         Some of them are support <abbr title="Object Oriented Programming">OOP</abbr>
+         <ul>
+            <li>Java</li>
+            <li>C++</li>
+            <li>Python</li>
+         </ul>
+         </div>
+    </div>
+        <div class="tables">
+            <table border="1px"> 
+                <tr>
+                    <th>Data type</th>
+                    <th>range </th>
+                    <th>Size of Data type</th>
+                </tr>
+                <tr>
+                    <td>signed char</td>
+                    <td>-127 to +127</td>
+                    <td>1 bytes</td>
+                </tr>
+                <tr>
+                    <td>short</td>
+                    <td>-32,768 to 32767</td>
+                    <td>2 bytes</td>
+                </tr>
+                <tr>
+                    <td> int </td>
+                    <td>-2,147,483,648 to 2,147,483,647</td>
+                    <td>2 bytes or 4 bytes</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
     </body>
 </html>
