@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Open+Sans&family=Oswald&family=Roboto&display=swap');
+
+
+.mainHeader{
+    background-color: rgb(236, 232, 232);
+}
+
+.headPosition{
+    text-align: center;
+}
 .main-body{
     font-size: larger;
     margin-left: 200px;
@@ -8,7 +18,18 @@
 .Buttons{
     text-align: center;
 }
+.StyleButton{
+    font-style: italic;
+}
 
 button:hover{
       background-color: rgb(108, 136, 228);
+  }
+  .mobile{
+      float: left;
+      margin: 5px;
+      border-color: greenyellow;
+  }
+  .e-mail{
+      float: right;
   }
