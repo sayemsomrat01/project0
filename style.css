@@ -1,6 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Open+Sans&family=Oswald&family=Roboto&display=swap');
 
 
+ 
+
+a:link {
+    text-decoration: none;  
+  }
+  a:visited {
+    text-decoration: none;
+  }  
+  a:hover {
+    text-decoration: none;
+  }  
+  a:active {
+    text-decoration: none;
+  }
 .mainHeader{
     background-color: rgb(236, 232, 232);
 }
@@ -10,13 +24,24 @@
 }
 .main-body{
     font-size: larger;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 40px;
+    margin-right: 40px;
     margin-top: 50px;
 }
-
 .Buttons{
     text-align: center;
+}
+.button{
+    padding: 5px 10px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #76c4e9;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
 }
 .StyleButton{
     font-style: italic;
@@ -24,6 +49,10 @@
 
 button:hover{
       background-color: rgb(108, 136, 228);
+  }
+.button:active{
+    background-color: #5caee4;
+    transform: translateY(4px);
   }
   .mobile{
       float: left;
