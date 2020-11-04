@@ -1,21 +1,62 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="style.css">
+        <link href="style.css" rel="stylesheet">
         <title>
         </title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-        <h1 style="text-align: center;">Data Transmission</h1>
+        <div class="mainHeader">
+        <h1 class="headPosition">Data Transmission</h1>
+        </div>
         <nav class="Buttons">
-        <button type="button"><a href="index.html">Home</a></button>
-        <button type="button"><a href="index1.html">page 2</a></button>
-        <button type="button"><a href="index2.html">page 3</a></button>
-        <button type="button"><a href="index3.html">page 4</a></button>
+        <button class="button"><a href="index.html">Home</a></button>
+        <button class="button"><a href="index1.html">page 2</a></button>
+        <button class="button"><a href="index2.html">page 3</a></button>
+        <button class="button"><a href="index3.html">page 4</a></button>
         </nav>
+        <script src="https://kit.fontawesome.com/f93039013f.js" crossorigin="anonymous"></script>
     </head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Open+Sans&family=Oswald&family=Roboto&display=swap');
+        
+        .image{
+            margin-top: 20px;
+            box-shadow: 0 4px 8px 0 black;
+            width: 100%;
+        }
+
+    </style>
 
     <body>
-        Data Transmission
+        <div class="image">
+                <img src="images/data.jpg" alt="" width="100%" height="600px" class="img"> 
+        </div>
+
+        <div class="main-body">
+             <b>What is data transmission?</b> <br>
+             Data transmission refers to the process of transferring data between two or more digital devices. Data is transmitted from one
+             device to another in analog or digital format. Basically, data transmission enables devices or components within devices to speak to each other.
+             <br>
+             <b>How does data transmission work between digital devices?</b><br>
+             Data is transferred in the form of bits between two or more digital devices. There are two methods used to transmit data between digital devices: serial
+             transmission and parallel transmission. Serial data transmission sends data bits one after another over a single channel. Parallel data transmission sends
+             multiple data bits at the same time over multiple channels.
+             <br>
+             <b>What is serial transmission?</b><br>
+                When data is sent or received using serial data transmission, the data bits are organized in a specific order, since they can only be sent one after 
+                another. The order of the data bits is important as it dictates how the transmission is organized when it is received. It is viewed as a reliable data 
+                transmission method because a data bit is only sent if the previous data bit has already been received.
+                <br>       
+               <b>What is parallel transmission?</b><br>
+                When data is sent using parallel data transmission, multiple data bits are transmitted over multiple channels at the same time. This means that data can
+                be sent much faster than using serial transmission methods.Given that multiple bits are sent over multiple channels at the same time, the order in which
+                a bit string is received can depend on various conditions, such as proximity to the data source, user location, and bandwidth availability.                                   
+        </div> 
+        <div class="info">
+            <footer>
+                <div class="mobile"><i class="fas fa-phone-alt"> Phone: +8801609813346</i></div>
+            <div class="e-mail"><i class="fas fa-at"></i> E-mail:ik262142@gmail</div>
+            </footer>
+        </div>
     </body>
 </html>

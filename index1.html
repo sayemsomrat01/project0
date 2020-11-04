@@ -4,9 +4,11 @@
         <title>
         </title>
         <link rel="stylesheet" href="style.css">
-        <h1 style="text-align: center;">Programming</h1>
+        <div class="mainHeader">
+        <h1 class="headPosition">Programming</h1>
+        </div>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+        <script src="https://kit.fontawesome.com/f93039013f.js" crossorigin="anonymous"></script>
     </head>
 
     <nav class="Buttons">
@@ -17,31 +19,47 @@
     </nav>
 
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Open+Sans&family=Oswald&family=Roboto&display=swap');
         .flex{
             border: black;
             margin-top: 5px;
             width: 100%;
         }
+        .fullArea{
+            margin-left: 120px;
+            height: 250px;
+            width: 100%;
+            box-sizing: content-box;
+        }
+        
 
         .container{
+            padding: 10px;
             float: left;
             display: flex;
             flex-wrap: wrap;
-            margin: 20px;
-            width: 200px;
+            margin: 40px;
+            width: 400px;
             height: 200px;
             background-color: rgb(218, 234, 245);
         }
-        table{
-            
-            float: right;
-            margin-top: 10px;
-            border-collapse: collapse;
-            border-color: cornflowerblue;
-            border-style: ridge;
+        .tableDiv{
+            position: unset;
+        }
+
+        th{
+            background-color: rgba(122, 194, 243, 0.39);
+        }
+        td{
+            background-color: rgb(218, 232, 240);
         }
         th,td{
-            border-color: cyan;
+            border-color: rgb(7, 71, 71);
+        }
+        .main-table{
+            border-collapse: collapse;
+            border-color: black;
+            border-radius: 5px;
         }
         
     </style>
@@ -49,27 +67,37 @@
     <body class="main-body">
         Computer programming is an important sector in the field of information and technology field. Computer programming is the back-bone of Information and technology. Without Computer 
         programming nothing is possible to work. As it software or hardware, programming is essential widely.
-        <div class="flex">
-         <div class="container">
+         <div class="fullArea">
+            <div class="container">
             There are some programming language names are given bellow:
-         <ol>
-            <li>Python</li>
-            <li>Java</li>
-            <li>C</li>
-            <li>C++</li><br>
-         </ol>
+             <ol>
+                <li>Python</li>
+                <li>Java</li>
+                <li>C</li>
+                <li>C++</li><br>
+            </ol>
          </div>
-         <div class="container">
-         Some of them are support <abbr title="Object Oriented Programming">OOP</abbr>
-         <ul>
-            <li>Java</li>
-            <li>C++</li>
-            <li>Python</li>
-         </ul>
-         </div>
+             <div class="container">
+               Some of them are support <abbr title="Object Oriented Programming">OOP</abbr>
+              <ul>
+                <li>Java</li>
+                <li>C++</li>
+                <li>Python</li>
+             </ul>
+            </div>
+            <div class="container">
+                    Feature of OOP :
+                    <ol>
+                        <li>Object and Classes.</li>
+                        <li>Data abstraction and encapsulation.</li>
+                        <li>Inheritance.</li>
+                        <li>Polymorphism</li>
+                    </ol>
+            </div>
     </div>
-        <div class="tables">
-            <table border="1px"> 
+        <div class="tableDiv"><p class="main-body">Here some value of data type, it's range and Size of storage are given bellow in the
+            chart :</p>
+            <table align="center" class="main-table" border="1px"> 
                 <tr>
                     <th>Data type</th>
                     <th>range </th>
@@ -91,11 +119,27 @@
                     <td>2 bytes or 4 bytes</td>
                 </tr>
                 <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td>char</td>
+                    <td>0 to 255</td>
+                    <td>1 byte</td>
+                </tr>
+                <tr>
+                    <td>unsigned char</td>
+                    <td>0 to 255</td>
+                    <td>1 byte</td>
+                </tr>
+                <tr>
+                    <td>unsigned int</td>
+                    <td>0 to 65,535</td>
+                    <td>2 byte or 4 byte</td>
                 </tr>
             </table>
-        </div>
+            </div>
+      <div class="info">
+          <footer>
+            <div class="mobile"><i class="fas fa-phone-alt"> Phone: +8801609813346</i></div>
+            <div class="e-mail"><i class="fas fa-at"></i> E-mail:ik262142@gmail</div>
+        </footer>
+     </div>
     </body>
 </html>
